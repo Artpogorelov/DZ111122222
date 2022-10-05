@@ -15,7 +15,7 @@ public class Radio {
         return currentVolume;
     }
 
-    public void setCurrentRadio(int newCurrentRadio) {
+    public void setCurrentRadio(int  newCurrentRadio) {
         if (newCurrentRadio < 0) {
             return;
         }
